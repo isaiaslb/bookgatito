@@ -22,6 +22,7 @@ export class LoginComponent implements OnInit {
         console.log('Autenticado com sucesso!');
       },
       (error) => {
+        //TO DO remover redirect em caso de existir api de autenticação
         this.router.navigate(['animais']);
         console.log('Erro login');
       }
