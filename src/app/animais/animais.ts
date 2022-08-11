@@ -1,4 +1,4 @@
-export interface Animal{
+export interface Animal {
   id: number;
   postDate: Date;
   url: string;
